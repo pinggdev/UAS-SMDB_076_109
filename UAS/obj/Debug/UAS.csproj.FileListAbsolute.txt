@@ -1,0 +1,9 @@
+D:\Kuliah\Lab 2\Sem 3\SMDB\UAS\UAS\obj\Debug\UAS.csprojResolveAssemblyReference.cache
+D:\Kuliah\Lab 2\Sem 3\SMDB\UAS\UAS\obj\Debug\UAS.MainForm.resources
+D:\Kuliah\Lab 2\Sem 3\SMDB\UAS\UAS\obj\Debug\UAS.csproj.GenerateResource.Cache
+D:\Kuliah\Lab 2\Sem 3\SMDB\UAS\UAS\bin\Debug\UAS.exe
+D:\Kuliah\Lab 2\Sem 3\SMDB\UAS\UAS\bin\Debug\UAS.pdb
+D:\Kuliah\Lab 2\Sem 3\SMDB\UAS\UAS\bin\Debug\MySql.Data.dll
+D:\Kuliah\Lab 2\Sem 3\SMDB\UAS\UAS\obj\Debug\UAS.exe
+D:\Kuliah\Lab 2\Sem 3\SMDB\UAS\UAS\obj\Debug\UAS.pdb
+D:\Kuliah\Lab 2\Sem 3\SMDB\UAS\UAS\obj\Debug\UAS.home.resources
