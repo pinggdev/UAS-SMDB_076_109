@@ -37,7 +37,7 @@ namespace UAS
 		void Button1Click(object sender, EventArgs e)
 		{
 			try {
-				MySqlConnection koneksi = new MySqlConnection("Server=localhost;uid=root;password=; database=uas_smdb;");
+				MySqlConnection koneksi = new MySqlConnection("Server = localhost; Database = uas_smdb; Uid= root");
 				MySqlDataAdapter sda = new MySqlDataAdapter("select count(*) from admin where username = '"+username.Text+"' and password = '"+password.Text+"'", koneksi);
 				DataTable dt = new DataTable();
 				sda.Fill(dt);

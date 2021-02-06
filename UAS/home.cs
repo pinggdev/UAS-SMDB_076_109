@@ -21,7 +21,7 @@ namespace UAS
 	/// </summary>
 	public partial class home : Form
 	{
-			MySqlConnection koneksi = new MySqlConnection("Server=localhost;uid=root;password=; database=uas_smdb;");
+			MySqlConnection koneksi = new MySqlConnection("Server = localhost; Database = uas_smdb; Uid= root");
 			MySqlCommand mycommand = new MySqlCommand();
 			MySqlDataAdapter myadapter = new MySqlDataAdapter();	
 			
@@ -51,7 +51,7 @@ namespace UAS
 						koneksi.Close();
 			}
 			catch (Exception ex) {
-				MessageBox.Show(ex.ToString());
+					MessageBox.Show(ex.ToString());
 			}
 		}
 		
@@ -74,7 +74,7 @@ namespace UAS
 		void ubahData() {
 			try {
 				koneksi.Open();
-				mycommand.CommandText = "update pratikan set nim='"+nim.Text+"',nama='"+nama.Text+"',kom='"+kom.Text+"',lab='"+lab.Text+"',totalNilai='"+totalNilai.Text+"'";
+				mycommand.CommandText = "update pratikan set nim='"+nim.Text+"',nama='"+nama.Text+"',kom='"+kom.Text+"',lab='"+lab.Text+"',totalNilai='"+totalNilai.Text+"' where nim='"+nim.Text+"'";
 				myadapter.SelectCommand = mycommand;
 				if(mycommand.ExecuteNonQuery() == 1) {
 					MessageBox.Show("Data berhasil diupdate", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
